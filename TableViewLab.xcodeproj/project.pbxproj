@@ -16,6 +16,9 @@
 		10CC78922CC8787100AC521E /* TableViewLabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CC78912CC8787100AC521E /* TableViewLabTests.swift */; };
 		10CC789C2CC8787100AC521E /* TableViewLabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CC789B2CC8787100AC521E /* TableViewLabUITests.swift */; };
 		10CC789E2CC8787100AC521E /* TableViewLabUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CC789D2CC8787100AC521E /* TableViewLabUITestsLaunchTests.swift */; };
+		10CC78AB2CC8862C00AC521E /* GroupedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CC78AA2CC8862C00AC521E /* GroupedTableViewController.swift */; };
+		10CC78EB2CC97A1700AC521E /* IndexTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CC78EA2CC97A1700AC521E /* IndexTableViewController.swift */; };
+		10CC78ED2CC9878600AC521E /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CC78EC2CC9878600AC521E /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		10CC78972CC8787100AC521E /* TableViewLabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewLabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		10CC789B2CC8787100AC521E /* TableViewLabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewLabUITests.swift; sourceTree = "<group>"; };
 		10CC789D2CC8787100AC521E /* TableViewLabUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewLabUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		10CC78AA2CC8862C00AC521E /* GroupedTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupedTableViewController.swift; sourceTree = "<group>"; };
+		10CC78EA2CC97A1700AC521E /* IndexTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexTableViewController.swift; sourceTree = "<group>"; };
+		10CC78EC2CC9878600AC521E /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				10CC787C2CC8786F00AC521E /* SceneDelegate.swift */,
 				10CC787E2CC8786F00AC521E /* ViewController.swift */,
 				10CC78802CC8786F00AC521E /* Main.storyboard */,
+				10CC78EC2CC9878600AC521E /* TableViewController.swift */,
+				10CC78EA2CC97A1700AC521E /* IndexTableViewController.swift */,
+				10CC78AA2CC8862C00AC521E /* GroupedTableViewController.swift */,
 				10CC78832CC8787000AC521E /* Assets.xcassets */,
 				10CC78852CC8787000AC521E /* LaunchScreen.storyboard */,
 				10CC78882CC8787000AC521E /* Info.plist */,
@@ -258,6 +267,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10CC78EB2CC97A1700AC521E /* IndexTableViewController.swift in Sources */,
+				10CC78ED2CC9878600AC521E /* TableViewController.swift in Sources */,
+				10CC78AB2CC8862C00AC521E /* GroupedTableViewController.swift in Sources */,
 				10CC787F2CC8786F00AC521E /* ViewController.swift in Sources */,
 				10CC787B2CC8786F00AC521E /* AppDelegate.swift in Sources */,
 				10CC787D2CC8786F00AC521E /* SceneDelegate.swift in Sources */,
@@ -442,6 +454,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FWVQZWZ785;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TableViewLab/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -469,6 +482,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FWVQZWZ785;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TableViewLab/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
